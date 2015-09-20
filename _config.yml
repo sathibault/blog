@@ -3,15 +3,15 @@ gems:
   - jekyll-sitemap
 
 # Site settings
-title: Centrarium
-subtitle: "A simple yet classy theme for your Jekyll website or blog"
+title: Pipeline
+subtitle: "Stories from the mines and other exploites"
 email:
 name: Scott Thibault
 description: > 
   A simple yet classy theme for your Jekyll website or blog.
 baseurl: "/blog/" # the subpath of your site, e.g. /blog/
 url: "http://sathibault.github.io" # the base hostname & protocol for your site
-#cover: "assets/header_image.jpg"
+cover: "assets/salt_mine_old_corridor.jpg"
 logo: "assets/logo.png"
 
 # Build settings
@@ -20,7 +20,7 @@ paginate: 5
 paginate_path: "/page:num/"
 
 # Disqus comments
-disqus_shortname: bencentra
+disqus_shortname: sathibault
 
 # Google analytics
 # ga_tracking_id: "UA-XXXX-1"
