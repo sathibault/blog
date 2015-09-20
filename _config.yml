@@ -11,7 +11,8 @@ description: >
   A simple yet classy theme for your Jekyll website or blog.
 baseurl: "/blog/" # the subpath of your site, e.g. /blog/
 url: "http://sathibault.github.io" # the base hostname & protocol for your site
-cover: "assets/salt_mine_old_corridor.jpg"
+#cover: "assets/salt_mine_old_corridor.jpg"
+cover: "assets/old_mine-lo.jpg"
 logo: "assets/logo.png"
 
 # Build settings
