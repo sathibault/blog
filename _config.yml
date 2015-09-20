@@ -4,7 +4,7 @@ gems:
 
 # Site settings
 title: Pipeline
-subtitle: "Stories from the mines and other exploites"
+subtitle: "Stories from the mines and other exploits"
 email:
 name: Scott Thibault
 description: > 
@@ -20,7 +20,7 @@ paginate: 5
 paginate_path: "/page:num/"
 
 # Disqus comments
-disqus_shortname: sathibault
+disqus_shortname: pipeline-blog
 
 # Google analytics
 # ga_tracking_id: "UA-XXXX-1"
