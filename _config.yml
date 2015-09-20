@@ -1,0 +1,195 @@
+# External gems
+gems:
+  - jekyll-archives # Sorry, not GitHub pages friendly!
+  - jekyll-sitemap
+
+# Site settings
+title: Centrarium
+subtitle: "A simple yet classy theme for your Jekyll website or blog"
+email: blcentra@gmail.com
+name: Ben Centra
+description: > 
+  A simple yet classy theme for your Jekyll website or blog.
+baseurl: "/centrarium/" # the subpath of your site, e.g. /blog/
+url: "http://bencentra.com" # the base hostname & protocol for your site
+cover: "assets/header_image.jpg"
+logo: "assets/logo.png"
+
+# Build settings
+markdown: kramdown
+paginate: 5
+paginate_path: "/page:num/"
+
+# Archive settings (see https://github.com/jekyll/jekyll-archives/)
+jekyll-archives: 
+  enabled: 
+    - categories
+    - tags
+  layout: 'archive'
+  permalinks:
+    category: '/category/:name/'
+    tag: '/tag/:name/'
+
+# Disqus comments
+disqus_shortname: bencentra
+
+# Google analytics
+# ga_tracking_id: "UA-XXXX-1"
+
+# Category descriptions (for archive pages)
+descriptions:
+  - cat: jekyll
+    desc: "Posts describing Jekyll setup techniques."
+
+  - cat: dummy
+    desc: "Just some placeholder posts, lorem ipsum and the rest."
+
+# Social icons and sharing options
+#
+# Social settings are used in two places:
+# * In the footer, as links to your personal profiles
+# * After each blog post for sharing widgets
+# 
+# Example:
+# 
+# social:
+#   - name: Twitter                         # Name of the service
+#     icon: twitter                         # Font Awesome icon to use (minus fa- prefix)
+#     username: "@TheBenCentra"             # (User) Name to display in the footer link
+#     url: https://twitter.com/TheBenCentra # URL of your profile (leave blank to not display in footer)
+#     desc: Follow me on Twitter            # Description to display as link title, etc
+#     share_url: http://twitter.com/share   # URL for sharing to the service (leave blank to not allow sharing)
+#     share_title: ?text=                   # Title parameter for sharing URL
+#     share_link: "&amp;url="               # Link parameter for sharing URL
+social:
+  - name: Twitter
+    icon: twitter
+    username: "@TheBenCentra"
+    url: https://twitter.com/TheBenCentra
+    desc: Follow me on Twitter
+    share_url: http://twitter.com/share
+    share_title: ?text=
+    share_link: "&amp;url="
+
+  - name: Facebook
+    icon: facebook
+    username: thebencentra
+    url: 
+    desc: Friend me on Facebook
+    share_url: //www.facebook.com/sharer.php
+    share_title: ?t=
+    share_link: "&amp;u="
+
+  - name: GitHub
+    icon: github
+    username: bencentra
+    url: https://github.com/bencentra
+    desc: Fork me on GitHub
+    share_url:
+    share_title:
+    share_link:
+
+  - name: LinkedIn
+    icon: linkedin
+    username: Ben Centra
+    url: https://www.linkedin.com/pub/ben-centra/47/769/60a
+    desc: Connect with me on LinkedIn
+    share_url: //www.linkedin.com/shareArticle
+    share_title: ?mini=true
+    share_link: "&amp;url="
+
+  - name: Google+
+    icon: google-plus
+    username: 
+    url: 
+    desc: Add me to your Circles
+    share_url: //plus.google.com/share
+    share_title: ?title=
+    share_link: "&amp;url="
+
+  - name: YouTube
+    icon: youtube
+    username: 
+    url: 
+    desc: Subscribe on YouTube
+    share_url: 
+    share_title: 
+    share_link:
+
+  - name: Instagram
+    icon: instagram
+    username: 
+    url: 
+    desc: Follow me on Instagram
+    share_url: 
+    share_title: 
+    share_link:
+
+  - name: Pinterest
+    icon: pinterest
+    username: 
+    url: 
+    desc: Follow me on Pinterest
+    share_url: 
+    share_title: 
+    share_link:
+
+  - name: SoundCloud
+    icon: soundcloud
+    username: 
+    url: 
+    desc: Follow me on SoundCloud
+    share_url: 
+    share_title: 
+    share_link:
+
+  - name: Tumblr
+    icon: tumblr
+    username: 
+    url: 
+    desc: Follow me on Tumblr
+    share_url: 
+    share_title: 
+    share_link:
+
+  - name: Steam
+    icon: steam
+    username: 
+    url: 
+    desc: Friend me on Steam
+    share_url: 
+    share_title: 
+    share_link:
+
+  - name: Dribbble
+    icon: dribbble
+    username: 
+    url: 
+    desc: Follow me on Dribble
+
+  - name: Vimeo
+    icon: vimeo-square
+    username: 
+    url: 
+    desc: Follow me on Vimeo
+
+  - name: Vine
+    icon: vine
+    username: 
+    url: 
+    desc: Follow me on Vine
+
+# Social sharing protocols
+# These are for automatically generating sharing metadata for FB and Twitter
+# OS Protocol is for sharing the source of your site, if you're interested. For more, see osprotocol.com
+protocols:
+    fb_image: "assets/logo.png"
+    fb_image_width: 612
+    fb_image_height: 605
+    fb_image_type: "image/png"
+
+    twitter_image: "assets/logo.png"
+
+    os_repo: "https://github.com/RichardLitt/wordhoardpress.com"
+    os_rcs_type: "git"
+    os_src: "git@github.com:RichardLitt/wordhoardpress.com.git"
