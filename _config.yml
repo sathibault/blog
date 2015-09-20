@@ -8,12 +8,12 @@ subtitle: "Stories from the mines and other exploits"
 email:
 name: Scott Thibault
 description: > 
-  A simple yet classy theme for your Jekyll website or blog.
+  A blog about data.
 baseurl: "/blog/" # the subpath of your site, e.g. /blog/
 url: "http://sathibault.github.io" # the base hostname & protocol for your site
 #cover: "assets/salt_mine_old_corridor.jpg"
 cover: "assets/old_mine-lo.jpg"
-logo: "assets/logo.png"
+logo: "assets/gm-logo320x200.png"
 
 # Build settings
 markdown: kramdown
