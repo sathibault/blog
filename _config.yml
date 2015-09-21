@@ -13,7 +13,7 @@ baseurl: "/blog/" # the subpath of your site, e.g. /blog/
 url: "http://sathibault.github.io" # the base hostname & protocol for your site
 #cover: "assets/salt_mine_old_corridor.jpg"
 cover: "assets/old_mine-lo.jpg"
-logo: "assets/gm-logo320x200.png"
+logo: "assets/blog-logo.png"
 
 # Build settings
 markdown: kramdown
