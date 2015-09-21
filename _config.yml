@@ -11,7 +11,6 @@ description: >
   A blog about data.
 baseurl: "/blog/" # the subpath of your site, e.g. /blog/
 url: "http://sathibault.github.io" # the base hostname & protocol for your site
-#cover: "assets/salt_mine_old_corridor.jpg"
 cover: "assets/old_mine-lo.jpg"
 logo: "assets/blog-logo.png"
 
@@ -28,11 +27,8 @@ disqus_shortname: pipeline-blog
 
 # Category descriptions (for archive pages)
 descriptions:
-  - cat: jekyll
-    desc: "Posts describing Jekyll setup techniques."
-
-  - cat: dummy
-    desc: "Just some placeholder posts, lorem ipsum and the rest."
+  - cat: nlp
+    desc: "Natural Language Processing"
 
 # Social icons and sharing options
 #
