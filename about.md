@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 Pipeline is a blog by Scott Thibault about data: how to get it, how to
-store it, and how to extract information from it.  Scott is the found
+store it, and how to extract information from it.  Scott is the founder
 of Green Mountain Computing Systems, an independent software developer
 offering data tools including a database and a natural language
 processing toolkit for Node.js (see
