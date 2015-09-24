@@ -29,6 +29,8 @@ disqus_shortname: pipeline-blog
 descriptions:
   - cat: nlp
     desc: "Natural Language Processing"
+  - cat: tips
+    desc: "Helpful tips"
 
 # Social icons and sharing options
 #
