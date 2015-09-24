@@ -10,7 +10,7 @@ name: Scott Thibault
 description: > 
   A blog about data.
 baseurl: "/blog/" # the subpath of your site, e.g. /blog/
-url: "http://sathibault.github.io" # the base hostname & protocol for your site
+url: "http://sathibault.github.io/blog" # base hostname & protocol for your site
 cover: "assets/old_mine-lo.jpg"
 logo: "assets/blog-logo.png"
 

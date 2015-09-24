@@ -9,7 +9,7 @@ tags: twitter
 Follow these brief instructions to create the keys and tokens required
 for consuming Twitter feeds.
 
-Open another brower tab and visit
+Open another browser tab and visit
 [https://apps.twitter.com/app/new](https://apps.twitter.com/app/new)
 
 Fill out the a name, description and the URL of your website and click
