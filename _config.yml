@@ -1,6 +1,7 @@
 # External gems
 gems:
   - jekyll-sitemap
+  - jekyll-paginate
 
 # Site settings
 title: Pipeline
@@ -29,6 +30,8 @@ disqus_shortname: pipeline-blog
 descriptions:
   - cat: nlp
     desc: "Natural Language Processing"
+  - cat: computer vision
+    desc: "Computer Vision"
   - cat: tips
     desc: "Helpful tips"
 
